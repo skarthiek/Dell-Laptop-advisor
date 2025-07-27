@@ -2,10 +2,10 @@ services:
   - type: web
     name: dell-laptop-advisor-api
     env: python
-    buildCommand: pip install -r requirements.txt
+    buildCommand: chmod +x build.sh && ./build.sh
     startCommand: uvicorn main:app --host 0.0.0.0 --port $PORT
     envVars:
       - key: MONGODB_URI
-        value: mongodb+srv://your_username:your_password@your_cluster.mongodb.net/dell_laptop_advisor
+        value: mongodb+srv://skarthiek:@Karthiek123@cluster0.5ftbj9u.mongodb.net/dell_laptop_advisor?retryWrites=true&w=majority&appName=Cluster0
       - key: GEMINI_API_KEY
         sync: false 
