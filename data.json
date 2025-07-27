@@ -1,0 +1,190 @@
+[
+    {
+      "model": "Dell 14 Plus (AMD)",
+      "cpu": "Ryzen AI‑7 350",
+      "ram": "16 GB",
+      "storage": "512 GB SSD",
+      "gpu": "Integrated Ryzen AI GPU",
+      "price": "₹76,940",
+      "use_case": ["Professional", "AI/ML", "Student"],
+      "priority": ["Battery", "Portability"],
+      "link": "https://www.dell.com/en-in/shop/laptops/dell-14-plus"
+    },
+    {
+      "model": "Dell 16 Plus (AMD)",
+      "cpu": "Ryzen AI‑5 Series",
+      "ram": "16 GB",
+      "storage": "512 GB SSD",
+      "gpu": "Integrated Ryzen AI GPU",
+      "price": "₹76,400",
+      "use_case": ["Creator", "Productivity"],
+      "priority": ["Display", "Battery"],
+      "link": "https://www.dell.com/en-in/shop/laptops/dell-16-plus"
+    },
+    {
+      "model": "Dell 14 2‑in‑1 Plus",
+      "cpu": "Intel Core Ultra Series",
+      "ram": "16 GB",
+      "storage": "512 GB SSD",
+      "gpu": "Integrated Intel GPU",
+      "price": "₹87,670",
+      "use_case": ["Student", "Hybrid work"],
+      "priority": ["Portability", "Flexibility"],
+      "link": "https://www.dell.com/en-in/shop/laptops/dell-14-plus-2-in-1"
+    },
+    {
+      "model": "Alienware 16 Aurora",
+      "cpu": "Intel Core Ultra HX",
+      "ram": "32 GB",
+      "storage": "1 TB SSD",
+      "gpu": "NVIDIA RTX 50 Series",
+      "price": "₹1,29,990",
+      "use_case": ["Gamer", "High‑end"],
+      "priority": ["Performance"],
+      "link": "https://www.dell.com/en-in/shop/laptops/alienware-16-aurora"
+    },
+    {
+      "model": "Alienware 16 Area‑51",
+      "cpu": "Intel Core Ultra HX",
+      "ram": "32 GB",
+      "storage": "1 TB SSD",
+      "gpu": "RTX 50 Series",
+      "price": "₹3,09,990",
+      "use_case": ["Premium Gamer", "VR"],
+      "priority": ["Performance", "Display"],
+      "link": "https://www.dell.com/en-in/shop/laptops/alienware-16-area-51"
+    },
+    {
+      "model": "Alienware 18 Area‑51",
+      "cpu": "Intel Core Ultra HX",
+      "ram": "32 GB",
+      "storage": "2 TB SSD",
+      "gpu": "RTX 50 Series",
+      "price": "₹3,14,990",
+      "use_case": ["Extreme Gamer", "Graphics Workstation"],
+      "priority": ["Performance", "Display"],
+      "link": "https://www.dell.com/en-in/shop/laptops/alienware-18-area-51"
+    },
+    {
+      "model": "XPS 14 (Premium)",
+      "cpu": "Intel Core Ultra 7 155H",
+      "ram": "32 GB",
+      "storage": "1 TB SSD",
+      "gpu": "Intel Arc / RTX 4050",
+      "price": "₹1,50,000",
+      "use_case": ["Student", "Professional", "Designer"],
+      "priority": ["Portability", "Performance"],
+      "link": "https://www.dell.com/en-in/shop/laptops/dell-xps-14"
+    },
+    {
+      "model": "XPS 15 (Premium equivalent)",
+      "cpu": "Intel Core Ultra 7/9",
+      "ram": "32 GB",
+      "storage": "1 TB SSD",
+      "gpu": "RTX 4070",
+      "price": "₹1,78,000",
+      "use_case": ["Professional", "Content Creation"],
+      "priority": ["Display", "Performance"],
+      "link": "https://www.dell.com/en-in/shop/laptops/xps-15"
+    },
+    {
+      "model": "XPS 16 (Premium)",
+      "cpu": "Intel Core Ultra 9",
+      "ram": "32 GB",
+      "storage": "2 TB SSD",
+      "gpu": "RTX 4070",
+      "price": "₹3,59,080",
+      "use_case": ["High‑end", "Design"],
+      "priority": ["Performance", "Display"],
+      "link": "https://www.dell.com/en-in/shop/laptops/xps-16"
+    },
+    {
+      "model": "Pro 14 Laptop (Ultra 5)",
+      "cpu": "Intel Core Ultra 5 235U vPro",
+      "ram": "16 GB DDR5",
+      "storage": "512 GB SSD",
+      "gpu": "Integrated Intel Graphics",
+      "price": "₹1,01,748",
+      "use_case": ["Business", "Office"],
+      "priority": ["Portability", "Battery"],
+      "link": "https://www.dell.com/en-in/shop/laptops/dell-pro-14-laptop"
+    },
+    {
+      "model": "Pro 14 Laptop (Ultra 7)",
+      "cpu": "Intel Core Ultra 7 265U vPro",
+      "ram": "16 GB DDR5",
+      "storage": "512 GB SSD",
+      "gpu": "Integrated Graphics",
+      "price": "₹1,24,291",
+      "use_case": ["Business"],
+      "priority": ["Security", "Battery"],
+      "link": "https://www.dell.com/en-in/shop/laptops/dell-pro-14-laptop"
+    },
+    {
+      "model": "Pro 16 Laptop (Ultra 5)",
+      "cpu": "Intel Core Ultra 5 120U",
+      "ram": "16 GB DDR5",
+      "storage": "512 GB SSD",
+      "gpu": "Integrated Graphics",
+      "price": "₹82,270",
+      "use_case": ["Business", "Office"],
+      "priority": ["Display", "Portability"],
+      "link": "https://www.dell.com/en-in/shop/laptops/dell-pro-16-laptop"
+    },
+    {
+      "model": "Inspiron 14 2‑in‑1 (13th Gen i5)",
+      "cpu": "Intel i5‑1334U",
+      "ram": "16 GB DDR5",
+      "storage": "512 GB SSD",
+      "gpu": "Intel Iris Xe",
+      "price": "₹75,391",
+      "use_case": ["Student", "Home"],
+      "priority": ["Portability"],
+      "link": "https://www.dell.com/en-in/shop/laptops/inspiron-14-2-in-1"
+    },
+    {
+      "model": "Inspiron 14 (13th Gen i5)",
+      "cpu": "Intel i5‑1334U",
+      "ram": "8 GB DDR5",
+      "storage": "512 GB SSD",
+      "gpu": "Intel UHD",
+      "price": "₹60,490",
+      "use_case": ["Student", "Browsing"],
+      "priority": ["Budget", "Battery"],
+      "link": "https://www.dell.com/en-in/shop/laptops/inspiron-14-5440-laptop"
+    },
+    {
+      "model": "Inspiron 15 (13th Gen i5)",
+      "cpu": "Intel i5‑1334U",
+      "ram": "8 GB DDR4",
+      "storage": "512 GB SSD",
+      "gpu": "Intel Iris Xe",
+      "price": "₹49,990",
+      "use_case": ["Office", "Browsing"],
+      "priority": ["Budget"],
+      "link": "https://www.dell.com/en-in/shop/laptops/inspiron-15-3530-laptop"
+    },
+    {
+      "model": "Inspiron 15 (12th Gen i5)",
+      "cpu": "Intel i5‑1235U",
+      "ram": "16 GB DDR4",
+      "storage": "512 GB SSD",
+      "gpu": "Intel Iris Xe",
+      "price": "₹54,000",
+      "use_case": ["Student", "Office"],
+      "priority": ["Performance"],
+      "link": "https://www.dell.com/en-in/shop/laptops/inspiron-15-3520-laptop"
+    },
+    {
+      "model": "Inspiron 16 (13th Gen i5)",
+      "cpu": "Intel i5‑1334U",
+      "ram": "16 GB DDR5",
+      "storage": "512 GB SSD",
+      "gpu": "Intel Iris Xe",
+      "price": "₹65,190",
+      "use_case": ["Office", "Streaming"],
+      "priority": ["Display"],
+      "link": "https://www.dell.com/en-in/shop/laptops/inspiron-16-5640-laptop"
+    }
+
+  ]

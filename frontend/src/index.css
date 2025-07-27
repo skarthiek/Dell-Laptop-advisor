@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        font-family: 'Inter', sans-serif;
+        background-color: #f8fafc;
+    }
+}
+
+@layer components {
+    .btn-primary {
+        @apply bg-dell-blue hover:bg-dell-dark-blue text-white font-semibold py-3 px-6 rounded-lg transition-all duration-200 transform hover:scale-105 shadow-lg;
+    }
+
+    .btn-secondary {
+        @apply bg-white hover:bg-dell-light-blue text-dell-blue font-semibold py-3 px-6 rounded-lg border-2 border-dell-blue transition-all duration-200;
+    }
+
+    .card {
+        @apply bg-white rounded-xl shadow-lg p-6 border border-gray-100;
+    }
+
+    .input-field {
+        @apply w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-dell-blue focus:border-transparent transition-all duration-200;
+    }
+
+    .question-card {
+        @apply bg-white rounded-xl shadow-lg p-8 border border-gray-100 animate-fade-in;
+    }
+
+    .laptop-card {
+        @apply bg-white rounded-xl shadow-lg p-6 border border-gray-100 hover:shadow-xl transition-all duration-300;
+    }
+}
