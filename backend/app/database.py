@@ -11,7 +11,15 @@ db = None
 
 async def connect_to_mongo():
     global client, db
-    mongodb_uri = os.getenv("MONGODB_URI", "mongodb://localhost:27017")
+    mongodb_uri = os.getenv("MONGODB_URI")
+    
+    if not mongodb_uri:
+        print("❌ MONGODB_URI environment variable not found!")
+        print("Please set MONGODB_URI in your environment variables")
+        raise ValueError("MONGODB_URI environment variable is required")
+    
+    print(f"🔗 Attempting to connect to MongoDB...")
+    print(f"📡 URI: {mongodb_uri[:50]}...")  # Show first 50 chars for debugging
     
     try:
         client = AsyncIOMotorClient(mongodb_uri)

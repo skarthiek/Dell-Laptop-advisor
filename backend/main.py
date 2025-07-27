@@ -3,6 +3,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from app.routes import laptop_routes
 from app.database import init_db
 import uvicorn
+import os
 
 app = FastAPI(
     title="Dell Laptop Advisor API",
@@ -30,6 +31,23 @@ app.include_router(laptop_routes.router, prefix="/api")
 @app.on_event("startup")
 async def startup_event():
     try:
+        print("🚀 Starting Dell Laptop Advisor API...")
+        print("🔧 Loading environment variables...")
+        
+        # Check if environment variables are loaded
+        mongodb_uri = os.getenv("MONGODB_URI")
+        gemini_key = os.getenv("GEMINI_API_KEY")
+        
+        if not mongodb_uri:
+            print("❌ MONGODB_URI not found in environment variables!")
+        else:
+            print("✅ MONGODB_URI found in environment variables")
+            
+        if not gemini_key:
+            print("⚠️  GEMINI_API_KEY not found in environment variables!")
+        else:
+            print("✅ GEMINI_API_KEY found in environment variables")
+        
         await init_db()
         print("🚀 Dell Laptop Advisor API started successfully!")
     except Exception as e:
