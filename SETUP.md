@@ -42,7 +42,7 @@
    
    Edit `backend/.env`:
    ```env
-   MONGODB_URI=mongodb://localhost:27017
+   MONGODB_URI=mongodb+srv://skarthiek:@Karthiek123@cluster0.5ftbj9u.mongodb.net/dell_laptop_advisor?retryWrites=true&w=majority&appName=Cluster0
    GEMINI_API_KEY=your_actual_gemini_api_key_here
    ```
 

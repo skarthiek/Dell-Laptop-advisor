@@ -32,7 +32,7 @@ npm install
 echo "🔧 Setting up environment files..."
 if [ ! -f "../backend/.env" ]; then
     echo "📝 Creating backend .env file..."
-    echo "MONGODB_URI=mongodb://localhost:27017" > ../backend/.env
+    echo "MONGODB_URI=mongodb+srv://skarthiek:@Karthiek123@cluster0.5ftbj9u.mongodb.net/dell_laptop_advisor?retryWrites=true&w=majority&appName=Cluster0" > ../backend/.env
     echo "GEMINI_API_KEY=your_gemini_api_key_here" >> ../backend/.env
     echo "⚠️  Please edit backend/.env and add your Gemini API key!"
 fi
